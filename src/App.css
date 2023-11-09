@@ -1,38 +1,37 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  table {
+    margin-left: 5%;
+  }
+  #calendar {
+    margin-top: 3%;
+    margin-left: 5%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Adjustments for medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  table {
+    margin-left: 10%;
   }
-  to {
-    transform: rotate(360deg);
+  #calendar {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+}
+
+/* Adjustments for large screens */
+@media (min-width: 1025px) {
+  table {
+    margin-left: 15%;
+  }
+  #calendar {
+    margin-top: 7%;
+    margin-left: 12%;
   }
 }

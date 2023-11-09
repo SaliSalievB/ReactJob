@@ -1,0 +1,62 @@
+/* CalendarStyles.css */
+.react-calendar {
+  
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  .calendar-container{
+    border: solid #760e26;
+    border-radius: 10px;
+    border-width: 50px;
+  }
+  .react-calendar__navigation {
+
+    color: #fff; /* Text color */
+  }
+  
+  .react-calendar__navigation button {
+    font-size: 20px;
+  }
+  
+  .react-calendar__tile {
+    border: none;
+    padding: 0.75em;
+  }
+  
+  .react-calendar__tile--now {
+    background: #760e26; /* Main color */
+    color: #fff; /* Text color */
+  }
+  
+  .react-calendar__tile--active {
+    background: #5f0b21; /* Secondary color */
+    color: #fff; /* Text color */
+  }
+  
+  .react-calendar__tile--hover {
+    background: #f0f0f0; /* Hover color */
+  }
+ 
+.save-button {
+  background-color: #0b5f27; 
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 10%;
+  float: right;
+  transition: 1s;
+}
+
+.save-button:focus {
+  outline: none;
+}
+.save-button:hover{
+  background-color: #039d37;
+}
+.attendance-options{
+  background-color:#760e26;
+  color: #f3f3f3;
+}
